@@ -1,0 +1,3 @@
+[submodule "qbadmin"]
+	path = qbadmin
+	url = git@github.com:NMMI/qbadmin.git

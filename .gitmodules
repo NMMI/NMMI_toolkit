@@ -1,3 +1,6 @@
 [submodule "qbadmin"]
 	path = qbadmin
 	url = git@github.com:NMMI/qbadmin.git
+[submodule "qbAPI"]
+	path = qbAPI
+	url = git@github.com:NMMI/qbAPI.git

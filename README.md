@@ -20,7 +20,7 @@ git clone --recursive https://github.com/NMMI/NMMI_toolkit.git
 
 Setup the toolkit
 ```
-cd NMMI_toolkit
+cd NMMI_toolkit/scripts
 chmod 777 setup.sh
 . setup.sh
 ```
@@ -46,7 +46,11 @@ Running Demos
 
 Ubuntu / MAC
 ---
-Open a terminal and go to *NMMI_toolkit*.
+Open a terminal and compile the given examples:
+```
+cd NMMI_toolkit/scripts
+. compile_example.sh
+```
 
 To run the *qbdevice_handler* example that shows how to control a chain made of qbmove and qbhand type:
 ```

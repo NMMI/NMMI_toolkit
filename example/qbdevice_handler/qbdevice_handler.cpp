@@ -60,7 +60,7 @@ int main(int argc, char **argv)
 	fprintf(file,"serialport %s\n", serial_port.c_str());
 	fclose(file);
 
-	std::cout<<"Opened serial port: "<<serial_port<<std::endl;
+	std::cout<<std::endl<<"Opened serial port: "<<serial_port<<std::endl;
 
 	int us_sleep = 10000; // ~ 100 Hz
 	short int inputs[2];
@@ -68,6 +68,8 @@ int main(int argc, char **argv)
 
 	comm_settings comm_settings_t;
 
+	closeRS485(&comm_settings_t);
+	usleep(1000);
 	openRS485(&comm_settings_t, serial_port.c_str(), 2000000);
 	usleep(10000);
 
@@ -148,7 +150,7 @@ int main(int argc, char **argv)
 	closeRS485(&comm_settings_t);
 	usleep(1000);
 
-	std::cout<<"Exiting..."<<std::endl;
+	std::cout<<"Exiting..."<<std::endl<<std::endl;
 
 	return 0;
 }

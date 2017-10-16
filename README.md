@@ -35,7 +35,7 @@ git clone --recursive https://github.com/NMMI/NMMI_toolkit.git
 
 Setup the toolkit
 ```
-cd NMMI_toolkit
+cd NMMI_toolkit/scripts
 setup.sh
 ```
 

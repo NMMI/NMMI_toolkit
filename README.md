@@ -41,4 +41,21 @@ setup.sh
 
 This script update all the submodules to the latest version running the script *update_all.sh* and compile everything using the script *compile_all.sh* from the scripts folder.
 
+Running Demos
+===
+
+Ubuntu / MAC
+---
+Open a terminal and go to *NMMI_toolkit* folder and type:
+```
+cd qbadmin/bin_unix/
+./qbadmin -t
+cd ../..
+```
+to run the *qbdevice_handler* example that shows how to control a chain made of qbmove and qbhand type:
+```
+cd example/qbdevice_handler/build/
+./qbdevice_handler
+```
+
 For assistance contact: **ale.settimi[at]gmail.com**

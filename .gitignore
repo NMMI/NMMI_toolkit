@@ -33,3 +33,6 @@
 
 # IDE
 *.kdev4
+
+# EXAMPLES
+example/qbdevice_handler/build

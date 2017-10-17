@@ -72,4 +72,4 @@ cd example/qbdevice_handler/build/
 qbdevice_handler.exe
 ```
 
-For assistance contact: **ale.settimi[at]gmail.com**
+>For assistance contact: **ale.settimi[at]gmail.com**

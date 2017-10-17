@@ -71,7 +71,7 @@ int main(int argc, char **argv)
 	comm_settings comm_settings_t;
 
 	openRS485(&comm_settings_t, serial_port.c_str(), 2000000);
-	usleep(10000);
+	usleep(500000);
 
 	std::cout<<std::endl;
 	std::cout<<"QB Device Handler"<<std::endl;

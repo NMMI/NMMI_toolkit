@@ -47,7 +47,9 @@ int main(int argc, char **argv)
 {
         // here set serial port and your device id(s)
   
-	std::string serial_port  = "/dev/ttyUSB0"; // put here your serial port
+	//put here your serial port
+	std::string serial_port  =  "COM4";
+
 	std::vector<int> cube_id = {15}; // = {1,2,3,4};
 	std::vector<int> hand_id;       // = {5};
 	

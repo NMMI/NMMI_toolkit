@@ -49,13 +49,27 @@ Ubuntu / MAC
 Open a terminal and compile the given examples:
 ```
 cd NMMI_toolkit/scripts
-. compile_example.sh
+. compile_example_unix.sh
 ```
 
 To run the *qbdevice_handler* example that shows how to control a chain made of qbmove and qbhand type:
 ```
 cd example/qbdevice_handler/build/
 ./qbdevice_handler
+```
+
+Windows
+---
+Open a command prompt and compile the given examples:
+```
+cd NMMI_toolkit/scripts
+compile_example_win.sh
+```
+
+To run the *qbdevice_handler* example that shows how to control a chain made of qbmove and qbhand type:
+```
+cd example/qbdevice_handler/build/
+qbdevice_handler.exe
 ```
 
 For assistance contact: **ale.settimi[at]gmail.com**

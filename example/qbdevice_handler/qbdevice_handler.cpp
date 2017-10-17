@@ -47,7 +47,7 @@ int main(int argc, char **argv)
 {
         // here set serial port and your device id(s)
   
-	std::string serial_port  = "/dev/ttyUSB0";
+	std::string serial_port  = "/dev/ttyUSB0"; // put here your serial port
 	std::vector<int> cube_id = {15}; // = {1,2,3,4};
 	std::vector<int> hand_id;       // = {5};
 	
@@ -68,8 +68,6 @@ int main(int argc, char **argv)
 
 	comm_settings comm_settings_t;
 
-	closeRS485(&comm_settings_t);
-	usleep(1000);
 	openRS485(&comm_settings_t, serial_port.c_str(), 2000000);
 	usleep(10000);
 
